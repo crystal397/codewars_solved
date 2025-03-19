@@ -37,8 +37,6 @@ unique_in_order((1, 2, 2, 3, 3))   == [1, 2, 3]
 **compared the execution time** of my solution and the optimized solution using the performance measurement code.
 ![스크린샷 2025-03-19 111029](https://github.com/user-attachments/assets/a0347b70-981a-4cf8-be37-60ae08526f1d)
 
-### Sure! Let's break down the code `[key for key, _ in groupby(sequence)]` step by step:
-
 ### What is `groupby`?
 
 The `groupby` function comes from Python’s `itertools` module. It groups consecutive, identical elements from an iterable (like a list) into groups. 
